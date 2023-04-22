@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1> Use JSP Scriplet and JSP Expression in application </h1>
+        <h2> Customer discount </h2>
+        
+        <form action="processCustomer.jsp">
+            <label for="custCode"> Customer Code </label>
+            <input type="text" name="cust_no" placeholder="Key-in customer code"><br>
+            
+            <label for="quantity"> Quantity </label>
+            <input type="number" name="quantity" placeholder="Key-in quantity"><br>
+            
+            <label for="custType"> Customer Type </label>
+            <input type="radio" id="norm" name="cust_type" value="1" checked>
+            <label for="norm"> Normal Customer </label>
+            <input type="radio" id="privi" name="cust_type" value="2">
+            <label for="privi"> Privilege Customer </label><br><br>
+            
+            <input type="submit" value="Submit">
+            <input type="reset" value="Cancel">
+        </form>
+    </body>
+</html>
